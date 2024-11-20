@@ -1,0 +1,50 @@
+.red-square {
+    display: inline-block;
+    background-color: red;
+    width: 100px;
+    height: 100px;
+    margin-right: 10px;
+}
+
+.green-circle {
+    display: inline-block;
+    background-color: green;
+    width: 100px;
+    height: 100px;
+    border-radius: 100px;
+    margin-right: 10px;
+    
+}
+
+.satisfied {
+    display: inline-block;
+    width: 300px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    border-style: solid;
+    border-color: grey;
+    font-weight: bold;
+    margin-right: 10px;
+    vertical-align: top;
+}
+
+.youtube-box {
+    width: 400px;
+    display: inline-block;
+    vertical-align: top;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: grey;
+    padding-left: 20px;
+}
+
+.title-text {
+    font-size: larger;
+    font-weight: bold;
+    color: white;
+    padding-bottom: 0px;
+}
+
+.description-text {
+    font-weight: bold;
+    color: darkgray;
+}

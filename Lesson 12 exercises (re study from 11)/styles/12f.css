@@ -1,0 +1,75 @@
+.header {
+    background-color: palevioletred;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 50px;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-bottom: 40px;
+}
+
+.home {
+    width: 100px;
+    padding-left: 10px;
+}
+
+.home-button {
+    font-weight: bold;
+    color: white;
+    background-color: palevioletred;
+    border-width: 0px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    cursor: pointer;
+    transition: opacity 0.15s; 
+}
+
+.home-button:active {
+    opacity: 50%;
+}
+
+.search {
+    flex: 1;
+}
+
+.search-bar {
+    padding-left: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 20px;
+    border-style: solid;
+    width: 450px;
+    border-width: 1px;
+}
+
+.download {
+    border-width: 1px;
+    width: 100px;
+    text-align: center;
+}
+
+.download-button {
+    color: white;
+    background-color: palevioletred;
+    border-style: solid;
+    border-color: white;
+    border-width: 1px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    cursor: pointer;
+}
+
+.download-button:hover {
+    opacity: 75%;
+}
+
+.download-button:active {
+    opacity: 50%;
+}

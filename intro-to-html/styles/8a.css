@@ -1,0 +1,178 @@
+.name-search-bar {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.email-search-bar {
+    display: block;
+}
+
+.description-text {
+    width: 200px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.google-logo {
+    display: block;
+    margin-left: 200px;
+    margin-bottom: 10px;
+}
+
+.google-search-bar {
+    margin-left: 100px;
+    width: 500px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: larger;
+    padding-left: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 20px;
+    border: none;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.5);
+    margin-bottom: 40px;
+}
+
+.first-name-box {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: larger;
+    width: 150px;
+    margin-left: 15px;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-color: lightgray;
+    border-style: solid;
+    border-radius: 10px;
+    margin-right: 5px;
+}
+
+.last-name-box {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: larger;
+    width: 150px;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-color: lightgray;
+    border-style: solid;
+    border-radius: 10px;
+}
+
+.email-name-box  {
+    display: block;
+    margin-top: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: larger;
+    width: 335px;
+    margin-left: 15px;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-color: lightgray;
+    border-style: solid;
+    border-radius: 10px;
+    margin-right: 5px;
+}
+
+.sign-up-button {
+    margin-top: 10px;
+    margin-left: 15px;
+    color: white;
+    background-color: blue;
+    border: none;
+    border-radius: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: larger;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 360px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: opacity 0.15s;
+    margin-bottom: 40px;
+}
+
+.sign-up-button:hover {
+    opacity: 85%;
+}
+
+.sign-up-button:active {
+    opacity: 50%;
+}
+
+.title-text {
+    margin-left: 15px;
+    margin-bottom: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 35px;
+}
+
+.pickup-box, .destination-box {
+    display: block;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    margin-bottom: 10px;
+    margin-left: 15px;
+    background-color: rgb(239, 239, 239);
+    border: none;
+    border-radius: 2px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 20px;
+    width: 400px;
+}
+
+.request-now {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    margin-left: 15px;
+    color: white;
+    background-color: black;
+    border: none;
+    border-radius: 2px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 150px;
+    cursor: pointer;
+    transition: opacity 0.15s;
+}
+
+.request-now:hover {
+    opacity: 75%;
+}
+
+.request-now:active {
+    opacity: 50%;
+}
+
+.schedule-later {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    margin-left: 15px;
+    color: black;
+    background-color: rgb(239, 239, 239);
+    border: none;
+    border-radius: 2px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 190px;
+    cursor: pointer;
+    transition: opacity 0.15s;
+}
+
+.schedule-later:hover {
+    opacity: 75%;
+}
+
+.schedule-later:active {
+    opacity: 50%;
+}

@@ -1,0 +1,54 @@
+p {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+
+.video-title {
+    font-size: 18px;
+    font-weight: bold;
+    width: 280px;
+    line-height: 24px;
+    margin-bottom: 2;
+}
+
+.video-stats {
+    font-size: 14px;
+    color: #606060;
+    margin-top: 0;
+    margin-bottom: 16;
+     
+}
+
+.video-creator {
+    font-size: 14px;
+    color: #606060;
+}
+
+.video-description {
+    font-size: 14px;
+    color: #606060;
+    width: 280px;
+    line-height: 20px;
+}
+
+.call-to-action {
+    margin-top: 100px;
+    margin-left: 8px;
+    margin-right: 8px;
+    margin-bottom: 16px;
+    font-size: 14px;
+    background-color: rgb(227, 65, 64);
+    color: white;
+    padding: 16px;
+    text-align: center;
+    
+}
+
+.shop-now:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.best-selection {
+    margin-left: 10px;
+    margin-right: 10px;
+}

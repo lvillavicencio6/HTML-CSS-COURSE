@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            7a Exercise
+        </title>
+        <style>
+            .a-thumbnail {
+                width: 200px;
+                border-radius: 20px;
+            }
+
+            .b-thumbnail {
+                width: 200px;
+                height: 200px;
+                object-fit: cover;
+                object-position: center;
+            }
+
+            .c-thumbnail {
+                width: 200px;
+                height: 200px;
+                border-radius: 100px;
+                object-fit: cover;
+                object-position: center;
+            }
+            
+            .email-text {
+                margin-top: 40px;
+                font-family: Arial, Helvetica, sans-serif;
+                color: grey;
+                margin-bottom: 0px;
+            }
+
+            .text-box {
+                height: 25px;
+                border-width: 2px;
+                border-style: solid;
+                border-color: black;
+                border-radius: 4px;
+                width: 300px;
+            }
+
+            .privacy-policy-text {
+                font-family: Arial, Helvetica, sans-serifs;
+                font-size: 12px;
+                color: grey;
+            }
+
+            .join-button {
+                font-family: Arial, Helvetica, sans-serif;
+                font-size: large;
+                color: white;
+                background-color: blue;
+                border: none;
+                border-radius: 20px;
+                padding-top: 10px;
+                padding-bottom: 10px;
+                padding-left: 110px;
+                padding-right: 110px;
+                cursor: pointer;
+                margin-bottom: 40px;
+                transition: opacity 0.15s;
+            }
+
+            .join-button:active {
+                opacity: 50%;
+            }
+
+            .d-search-box {
+                margin-left: 40px;
+                padding: 10px;
+                font-size: large;
+                font-family: Arial, Helvetica, sans-serif;
+                border-radius: 5px;
+                border-style: solid;
+                border-color: grey;
+                border-width: 1px;
+            }
+
+            .e-search-box {
+                margin-left: 40px;
+                font-family: Arial, Helvetica, sans-serif;
+                font-size: larger;
+                width: 400px;
+                border-radius: 25px;
+                padding-top: 10px;
+                padding-bottom: 10px;
+                padding-left: 15px;
+                border: none;
+                box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
+                margin-bottom: 40px;
+                margin-right: 40px;
+                margin-top: 40px;
+            }
+
+            .g-thumbnail {
+                width: 50px;
+                height: 50px;
+                border-radius: 100px;
+                object-fit: cover;
+                object-position: left;
+                vertical-align: middle;
+            }
+
+            .tweet-design {
+                width: 400px;
+                margin-left: 20px;
+                margin-bottom: 40px;
+                border-radius: 15px;
+                border: none;
+                padding-top: 15px;
+                padding-bottom: 15px;
+                padding-left: 15px;
+                padding-right: 15px;
+                box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
+            }
+
+            .tweet-box {
+                font-size: larger;
+                padding-left: 5px;
+                padding-right: 50px;
+                border: none;
+            }
+
+            .tweet-button {
+                font-family: Arial, Helvetica, sans-serif;
+                font-size: large;
+                font-weight: bold;
+                color: white;
+                background-color: blue;
+                border-radius: 20px;
+                padding-left: 15px;
+                padding-right: 15px;
+                padding-top: 10px;
+                padding-bottom: 10px;
+                border: none;
+                cursor: pointer;
+            }
+
+            .tweet-button:active {
+                opacity: 50%;
+            }
+
+            .mutual-friends-container {
+                display: inline-block;
+                border: none;
+                width: 200px;
+                margin-left: 20px;
+                box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.5);
+                margin-bottom: 40px;
+            }
+
+            .f-thumbnail {
+                width: 200px;
+                height: 250px;
+                object-fit: cover;
+                object-position: right;
+            }
+
+            .z-thumbnail {
+                width: 200px;
+                height: 250px;
+                object-fit: cover;
+                object-position: left;
+            }
+
+            .f-name {
+                margin-left: 10px;
+                font-family: Arial, Helvetica, sans-serif;
+                font-size: larger;
+                font-weight: bold;
+            }
+
+            .f-mutual {
+                margin-left: 10px;
+                color: grey;
+                font-family: Arial, Helvetica, sans-serif;
+                font-size: large;  
+            }
+
+            .f-button {
+                margin-left: 10px;
+                color: white;
+                background-color: blue;
+                font-family: Arial, Helvetica, sans-serif;
+                font-size: large;  
+                margin-bottom: 10px;
+                border: none;
+                padding-left: 20px;
+                padding-right: 20px;
+                padding-top: 10px;
+                padding-bottom: 10px;
+                border-radius: 10px;
+            }
+
+        </style>
+    </head>
+    <body>
+        <img class="a-thumbnail" src="thumbnails/thumbnail-2.webp">
+        <img class="b-thumbnail" src="thumbnails/thumbnail-2.webp">
+        <img class="c-thumbnail" src="thumbnails/thumbnail-2.webp">
+        <p class="email-text">Email</p>
+        <input class="text-box" type="text">
+        <p class="privacy-policy-text"
+        >By clicking Agree & Join, your agree to the Privacy Policy.
+        </p>
+        <button class="join-button">Agree &amp; Join</button>
+        <input class="d-search-box" type="text" placeholder="Search">
+        <input class="e-search-box" type="text" placeholder="Search Google or type a URL">
+        <div class="tweet-design">
+            <img class="g-thumbnail" src="thumbnails/thumbnail-1.webp">
+            <input class="tweet-box" type="text" placeholder="What's happening?">
+            <button class="tweet-button">Tweet</button>
+        </div>
+        <div class="mutual-friends-container">
+            <img class="f-thumbnail" src="thumbnails/thumbnail-1.webp">
+            <p class="f-name">
+                Oliver
+            </p>
+            <p class="f-mutual">
+                2 mutual friends
+            </p>
+            <button class="f-button">
+                Add Friend
+            </button>
+        </div>
+        <div class="mutual-friends-container">
+            <img class="f-thumbnail" src="thumbnails/thumbnail-1.webp">
+            <p class="f-name">
+                Mimi
+            </p>
+            <p class="f-mutual">
+                3 mutual friends
+            </p>
+            <button class="f-button">
+                Add Friend
+            </button>
+        </div>
+        <div class="mutual-friends-container">
+            <img class="z-thumbnail" src="thumbnails/thumbnail-2.webp">
+            <p class="f-name">
+                Rex
+            </p>
+            <p class="f-mutual">
+                4 mutual friends
+            </p>
+            <button class="f-button">
+                Add Friend
+            </button>
+        </div>
+    </body>
+</html>

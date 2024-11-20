@@ -1,0 +1,69 @@
+.header {
+    display: flex;
+}
+
+.left-section {
+    background-color: lightblue;
+    width: 200px;
+}
+
+.right-section {
+    background-color: lightpink;
+    width: 75px;
+}
+
+.header-b {
+    display: flex;
+    margin-top: 20px;
+}
+
+.left-section-b, .right-section-b {
+    background-color: lightblue;
+    width: 50px;
+}
+
+.middle-section-b {
+    background-color: lightpink;
+    flex: 1;
+}
+
+.header-c {
+    display: flex;
+    margin-top: 20px;
+    justify-content: space-between;
+}
+
+.far-left-section-c {
+    background-color: lightpink;
+}
+
+.left-section-c {
+    background-color: lightpink;
+}
+
+.right-section-c {
+    background-color: lightpink;
+}
+
+.far-right-section-c {
+    background-color: lightpink;
+}
+
+.header-d {
+    margin-top: 20px;
+    display: flex;
+    border-width: 1px;
+    border-color: grey;
+    border-style: solid;
+    height: 50px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.left-section-d {
+    background-color: lightpink;
+}
+
+.right-section-d {
+    background-color: lightpink;
+}
